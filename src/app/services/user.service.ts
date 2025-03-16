@@ -20,4 +20,8 @@ export class UserService {
   getUser(id: number): Observable<User>{
     return this.http.get<User>(this.apiUrl+"/"+id);
   }
+    // metodo para añadir el usuario nuevo
+  addUser(user: User): Observable<User> {
+      return this.http.post<User>(this.apiUrl, user);
+    }
 }

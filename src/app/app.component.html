@@ -1,6 +1,7 @@
 @if(loggedin)
 {
     <app-usuario></app-usuario>
+    <app-registro></app-registro>
 }
 @else  {
     <app-login (exportLoggedIn)="getLoggedIn($event)"></app-login>
