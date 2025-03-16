@@ -1,3 +1,9 @@
+# Ejercicio resuelto
+El ejercicio está bien resuelto, me funciona el programa, he usado lo que aprendimos en clase y haciendo el seminario, y tambuén chatgpt
+
+
+
+
 # AngularSeminari6
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
